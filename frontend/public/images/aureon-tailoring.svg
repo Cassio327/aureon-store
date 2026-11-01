@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" role="img" aria-labelledby="title description">
+  <title id="title">Aureon charcoal tailoring illustration</title>
+  <desc id="description">An editorial illustration of a figure wearing a charcoal suit in a warm architectural interior.</desc>
+  <defs>
+    <linearGradient id="room" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d7c7ad" />
+      <stop offset="0.52" stop-color="#a88a69" />
+      <stop offset="1" stop-color="#70533d" />
+    </linearGradient>
+    <linearGradient id="light" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#fff7df" stop-opacity="0.8" />
+      <stop offset="1" stop-color="#fff7df" stop-opacity="0" />
+    </linearGradient>
+    <linearGradient id="jacket" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#343331" />
+      <stop offset="0.55" stop-color="#1e1e1d" />
+      <stop offset="1" stop-color="#101110" />
+    </linearGradient>
+    <linearGradient id="trousers" x1="0" y1="0" x2="0.8" y2="1">
+      <stop stop-color="#292927" />
+      <stop offset="1" stop-color="#111210" />
+    </linearGradient>
+    <filter id="grain" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="2" seed="18" result="noise" />
+      <feColorMatrix in="noise" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 .08 0" />
+      <feBlend in="SourceGraphic" mode="multiply" />
+    </filter>
+  </defs>
+
+  <rect width="900" height="1200" fill="url(#room)" />
+  <path d="M0 0h222v1200H0z" fill="#eadfc9" />
+  <path d="M52 0h110v1200H52z" fill="url(#light)" />
+  <path d="M708 0h192v1200H708z" fill="#5f4634" opacity="0.62" />
+  <path d="M680 0h30v1200h-30z" fill="#c4a986" opacity="0.45" />
+  <path d="M720 78 900 5v48L720 126zm0 188 180-73v48l-180 73zm0 188 180-73v48l-180 73z" fill="#f4dfb5" opacity="0.35" />
+  <path d="M0 1015h900v185H0z" fill="#80654e" opacity="0.5" />
+  <path d="M0 1022h900" stroke="#e7d5b8" stroke-opacity="0.5" stroke-width="4" />
+
+  <g filter="url(#grain)">
+    <path d="M410 236h135v142H410z" fill="#bd8061" />
+    <ellipse cx="477" cy="179" rx="87" ry="111" fill="#c98b69" />
+    <path d="M392 157c5-83 51-126 116-118 60 7 92 50 83 117-18-32-46-52-87-54-44-3-79 16-112 55Z" fill="#2a211c" />
+    <path d="M392 153c-13 36-5 79 8 103l18-70 8-75z" fill="#2a211c" />
+    <path d="M552 99c39 26 49 80 27 123l-13-67-38-57z" fill="#2a211c" />
+    <ellipse cx="390" cy="191" rx="13" ry="24" fill="#b97659" />
+    <ellipse cx="564" cy="191" rx="13" ry="24" fill="#b97659" />
+    <path d="M438 168c12-8 25-8 38-1m32 0c12-7 25-6 36 2" fill="none" stroke="#3a2921" stroke-linecap="round" stroke-width="5" />
+    <path d="M452 187h12m54 0h12" stroke="#201b18" stroke-linecap="round" stroke-width="6" />
+    <path d="m490 188-7 36 15 5" fill="none" stroke="#9d624b" stroke-linecap="round" stroke-width="4" />
+    <path d="M457 250c20 14 44 15 65 0" fill="none" stroke="#774738" stroke-linecap="round" stroke-width="5" />
+
+    <path d="m411 316 66 55 70-55 77 43-70 350H394l-60-350z" fill="#f4f0e8" />
+    <path d="m451 357 26 14 27-15 23 63-31 202-38-202z" fill="#3f2e23" />
+    <path d="m477 371-20 30 39 22 32-23-24-44z" fill="#211a16" />
+
+    <path d="M333 349c-66 20-103 73-116 164l-30 302 96 19 54-240 69-213z" fill="url(#jacket)" />
+    <path d="M621 349c65 21 103 75 116 164l29 302-96 19-54-240-69-213z" fill="url(#jacket)" />
+    <path d="M333 349 451 357l-45 266-93 147-33-304z" fill="url(#jacket)" />
+    <path d="m621 349-117 7 42 267 96 147 31-304z" fill="url(#jacket)" />
+    <path d="m333 349 106 19-36 80 62 183-118-112z" fill="#41403d" />
+    <path d="m621 349-105 18 35 81-60 183 116-112z" fill="#383735" />
+    <path d="m393 337 58 20-12 11-106-19z" fill="#ded9d0" />
+    <path d="m562 337-58 19 12 11 105-18z" fill="#ded9d0" />
+    <path d="M283 834c30 8 61 2 88-19l37 39-77 86-62-29z" fill="#b9795a" />
+    <path d="M670 834c-30 8-61 2-88-19l-37 39 77 86 63-29z" fill="#b9795a" />
+    <path d="M387 694h179v111H387z" fill="#1c1c1b" />
+    <circle cx="478" cy="677" r="7" fill="#8c7a61" />
+    <circle cx="478" cy="723" r="7" fill="#8c7a61" />
+    <path d="M556 484h71v9h-71z" fill="#e7dfcf" />
+
+    <path d="M374 795h105v405H294l26-298z" fill="url(#trousers)" />
+    <path d="M479 795h104l55 107 22 298H479z" fill="url(#trousers)" />
+    <path d="M479 809v391" stroke="#514f4b" stroke-width="3" />
+    <path d="M332 857c38 20 76 25 112 14m79 0c38 10 75 5 110-14" fill="none" stroke="#0a0b0a" stroke-opacity="0.55" stroke-width="4" />
+  </g>
+
+  <rect width="900" height="1200" fill="none" stroke="#f5ead5" stroke-opacity="0.28" stroke-width="3" />
+</svg>
